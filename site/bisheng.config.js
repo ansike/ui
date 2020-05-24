@@ -52,6 +52,7 @@ module.exports = {
     },
     typeOrder: {
       // Component
+      Custom: -1,
       General: 0,
       Layout: 1,
       Navigation: 2,
@@ -60,6 +61,7 @@ module.exports = {
       Feedback: 5,
       Other: 6,
       Deprecated: 7,
+      自定义: -1,
       通用: 0,
       布局: 1,
       导航: 2,
@@ -107,9 +109,12 @@ module.exports = {
   },
   webpackConfig(config) {
     config.resolve.alias = {
-      'antd/lib': path.join(process.cwd(), 'components'),
-      'antd/es': path.join(process.cwd(), 'components'),
-      antd: path.join(process.cwd(), 'index'),
+      // 'antd/lib': path.join(process.cwd(), 'components'),
+      // 'antd/es': path.join(process.cwd(), 'components'),
+      // antd: path.join(process.cwd(), 'index'),
+      'antd/lib': 'antd/lib',
+      'antd/es': 'antd/lib',
+      antd: 'antd',
       site: path.join(process.cwd(), 'site'),
       'react-router': 'react-router/umd/ReactRouter',
       'react-intl': 'react-intl/dist',

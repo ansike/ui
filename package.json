@@ -1,11 +1,12 @@
 {
-  "name": "ui",
-  "version": "1.0.0",
-  "description": "test",
+  "name": "antd",
+  "version": "4.2.4",
+  "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
-    "test",
+    "ant",
     "component",
     "components",
+    "design",
     "framework",
     "frontend",
     "react",
@@ -145,6 +146,7 @@
     "rc-virtual-list": "^1.1.0",
     "resize-observer-polyfill": "^1.5.1",
     "scroll-into-view-if-needed": "^2.2.20",
+    "antd": "^4.2.4",
     "warning": "~4.0.3"
   },
   "devDependencies": {
@@ -227,6 +229,7 @@
     "mockdate": "^3.0.0",
     "node-fetch": "^2.6.0",
     "open": "^7.0.3",
+    "please-upgrade-node": "^3.2.0",
     "preact": "^10.0.0",
     "preact-compat": "^3.18.5",
     "prettier": "^2.0.1",

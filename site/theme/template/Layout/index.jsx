@@ -12,6 +12,8 @@ import { ConfigProvider } from 'antd';
 import LogRocket from 'logrocket';
 import setupLogRocketReact from 'logrocket-react';
 // eslint-disable-next-line import/no-unresolved
+import 'antd/dist/antd.compact.less';
+
 import zhCN from 'antd/es/locale/zh_CN';
 import Header from './Header';
 import SiteContext from './SiteContext';

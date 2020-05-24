@@ -139,6 +139,7 @@ export function getLocalizedPathname(
     const localHash = hash[zhCN ? 'zhCN' : 'enUS'];
     fullPath += `#${localHash}`;
   }
+
   return fullPath;
 }
 

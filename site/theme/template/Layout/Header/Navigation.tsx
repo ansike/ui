@@ -92,7 +92,6 @@ export default ({
       </Menu.Item>
       <Menu.Item key="components">
         <Link to={utils.getLocalizedPathname('/components/button/', isZhCN)}>
-          {utils.getLocalizedPathname('/components/button/', isZhCN)}
           <FormattedMessage id="app.header.menu.components" />
         </Link>
       </Menu.Item>
